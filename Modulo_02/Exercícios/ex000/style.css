@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+#logo{
+        display: flex;
+        float: left;
+}
+header{
+    background-color: aqua;
+}
