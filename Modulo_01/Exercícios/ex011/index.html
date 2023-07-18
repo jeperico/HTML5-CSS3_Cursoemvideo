@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>Imagens do Bereguejonson</h1>
+    <h2> Altera o tamanho da tela aí irmão</h2>
+
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/photop.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/photom.png" type="image/png">
+        <img src="imagens/photog.png" alt="Imagem grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
