@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.box{
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+#b1{
+    background-color: aqua;
+}
+
+#b2{
+    background-image: linear-gradient(to right, yellow, orange,  red);
+}
+
+#b3{
+    background-image: url('../images/pattern001.png');
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url('../images/wallpaper001.jpg');
+}
