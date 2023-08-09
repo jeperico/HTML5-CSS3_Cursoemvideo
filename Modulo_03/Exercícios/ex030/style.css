@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#Container{
+    position: relative;
+    height: 500px;
+    background-color: rgb(44, 200, 228);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#Conteudo{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    background-color: blanchedalmond;
+    box-shadow: 1px 1px 10px rgba(0, 63, 60, 0.678);
+    border-radius: 10px;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
