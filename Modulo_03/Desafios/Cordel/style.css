@@ -20,11 +20,18 @@ header{
     color: #ffffff;
     text-align: center;
     padding: 30px;
-    font: normal normal 1em var(--header), var(--padrão);
+}
+
+header > h1{
+    font: normal normal 5em var(--header), var(--padrão);
+    font-size: 8vw;
+    margin: 0;
+    margin-top: 3vh;
 }
 
 header > p{
     font-family: var(--padrão);
+    font-size: 1em;
 }
 
 .img{
