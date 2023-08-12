@@ -23,9 +23,10 @@ header{
 
 header h1{
     font-family: var(--header);
-    font-size: 8vw;
+    font-size: 10vw;
     margin: 0;
     margin-top: 3vh;
+    font-variant: small-caps;
 }
 
 header > p{
@@ -36,12 +37,19 @@ header > p{
 a{
     text-decoration: none;
     color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .img{
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 4px 4px 26px 0px rgba(0, 0, 0, 0.486);
 }
 
 #F1{
@@ -55,7 +63,7 @@ a{
 
 .txt{
     color: #ffffff;
-    width: auto;
+    padding: 2.5vw;
     background-color: rgba(0, 0, 0, 0.404);
     display: inline-block;
 }
@@ -63,9 +71,13 @@ a{
 section p{
     font-size: 4vw;
     font-family: var(--txt), var(--padrão);
-    line-height: 7vw;
+    line-height: 2em;
     margin-left: 2vw;
-    margin-bottom: 20vh;
+    padding-bottom: 2em;
+}
+
+section{
+    margin-bottom: 10vh;
     margin-top: 10vh;
 }
 
