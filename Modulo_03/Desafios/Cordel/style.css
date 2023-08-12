@@ -15,15 +15,14 @@ body{
 }
 
 header{
-    width: 100vw;
     background-color: black;
     color: #ffffff;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
 }
 
-header > h1{
-    font: normal normal 5em var(--header), var(--padrão);
+header h1{
+    font-family: var(--header);
     font-size: 8vw;
     margin: 0;
     margin-top: 3vh;
@@ -32,6 +31,11 @@ header > h1{
 header > p{
     font-family: var(--padrão);
     font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .img{
@@ -61,4 +65,14 @@ section p{
     font-family: var(--txt), var(--padrão);
     line-height: 7vw;
     margin-left: 2vw;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.2em;
 }
