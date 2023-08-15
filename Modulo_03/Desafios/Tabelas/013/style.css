@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font: bold italic 4em Monospace;
+    margin: 75px;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(127, 225, 255);
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 2em;
+}
