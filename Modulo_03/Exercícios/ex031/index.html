@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            border: 5px solid rgb(0, 255, 0);
+        }
+        td{
+            border: 1px solid black;
+            padding: 6px;
+        }
+        .l{
+            background-color: aqua;
+        }
+        .li{
+            background-color: rgba(210, 63, 255, 0.815);
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Hello World!... Digo, minha primeira tabela</h1>
+    <!--
+        Hierarquia
+        Table -> Tabela;
+            Table Row -> Linha da Tabela;
+                Table Header -> Cabeçalho da Tabela;
+                Table Data -> Dado da Tabela;
+    -->
+    <table>
+        <tr class="l">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="li">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="l">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="li">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    </main>
+</body>
+</html>
