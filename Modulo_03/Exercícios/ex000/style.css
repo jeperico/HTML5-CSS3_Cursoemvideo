@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../teste/images/wpp.jpg');
+    background-size: cover;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(193, 246, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: inset 0 0 40px black;
+}
+
+table{
+    border-spacing: 0;
+    border: 1px solid black;
+    box-shadow: 0 0 40px black;
+    border-radius: 20px;
+}
+td{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    color: black;
+}
