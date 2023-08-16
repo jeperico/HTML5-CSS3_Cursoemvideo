@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+table{
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+td, th{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+thead, .thead{
+    background-color: gray;
+    color: white;
+}
+
+.Comedias{
+    background-color: bisque;
+}
+.Conota{
+    background-color: beige;
+}
