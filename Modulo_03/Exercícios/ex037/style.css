@@ -2,7 +2,6 @@
 
 table{
     border-collapse: collapse;
-    text-align: center;
 }
 
 td, th{
@@ -10,13 +9,17 @@ td, th{
     padding: 10px;
     font-size: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-#produtos{
-
+.Produto{
+    text-align: center;
 }
 
-#produto{
-    
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+div#Container{
+    overflow-x: auto;
 }
