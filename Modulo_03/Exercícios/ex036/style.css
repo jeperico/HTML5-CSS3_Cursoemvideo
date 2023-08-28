@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+body{
+    background-color: bisque;
+}
+
+main{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 table{
     border-collapse: collapse;
     width: 1000px;
