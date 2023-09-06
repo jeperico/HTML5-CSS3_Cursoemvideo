@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black url('../assets/tela-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
