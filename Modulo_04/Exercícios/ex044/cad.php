@@ -1,0 +1,1 @@
+Foi, como não é o curso de PHP, vamos apenas parar por aqui
