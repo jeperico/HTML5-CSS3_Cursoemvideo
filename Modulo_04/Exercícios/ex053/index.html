@@ -8,9 +8,23 @@
 </head>
 <body>
     <h1>Utilizando de JavaScript</h1>
-
-    <script src="script.js">
-        
-    </script>
+    <form action="../ex044/cad.php" method="get" autocomplete="off">
+        <p>
+            <label for="n1">Informe um número:</label>
+            <input type="number" name="n1" id="n1" min="0" max="50" required oninput="soma.innerHTML= Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">Informe um número:</label>
+            <input type="number" name="n2" id="n2" min="0" max="50" required oninput="soma.innerHTML= Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="soma">Soma:</label>
+            <output id="soma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
 </body>
 </html>

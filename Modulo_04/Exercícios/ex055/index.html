@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript hehe</title>
+</head>
+<body>
+    <h1>Utilizando de JavaScript</h1>
+    <form action="../ex044/cad.php" method="get" autocomplete="off">
+
+        <p>
+            <label for="ano">Em qual ano você nasceu?</label>
+            <input type="number" id="ano" min="1900" max="2023" oninput="idade.innerHTML = `Você está com ${2023-Number(ano.value)} anos!`">
+            <output id="idade">Você está com -- anos!</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
