@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+}
+
+header > h1{
+    color: white;
+    align-self: center;
+}
+
+main{
+    max-width: 800px;
+    min-width: 300px;
+    min-height: 100vh;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.5);
+}
+
+main > h1{
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 60px;
+    padding-bottom: 30px;
+}
+
+.tex{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px inset rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 192, 203, 0.5);
+    transition: transform 1s, background-color .5s;
+    margin-bottom: 50px;
+
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.tex:hover{
+    transform: scale(1.5);
+    transition: transform 1s, background-color .5s;
+    background-color: rgb(255, 192, 203);
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+fieldset{
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    background-color: beige;
+    border: 10px solid blueviolet;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#Esports{
+    grid-template-columns: repeat(6, 1fr);
+}
+#Sex{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+legend{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.check{
+    background-color: rgb(246, 73, 99);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 0 0 10px inset rgba(0, 0, 0, 0.5);
+}

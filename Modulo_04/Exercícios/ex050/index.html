@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex050</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ex050</h1>
+    </header>
+    <main>
+        <h1>Hello World!</h1>
+        <input type="button" value="Revelar texto especial" onclick="textaoslk()" class="tex">
+        <div id="res"></div>
+        <script src="script.js"></script>
+        <form action="cadastro.php" method="get">
+
+            <fieldset id="Sex" onselectstart='return false'>
+                <legend>Sexo:</legend>
+                <label for="sxmasc" class="check">
+                    <input type="radio" name="sex" id="sxmasc" checked value="M">
+                    <label for="sxmasc">Masculino</label>
+                </label>
+                <label for="sxfem" class="check">
+                    <input type="radio" name="sex" id="sxfem" value="F">
+                    <label for="sxfem">Feminino</label>
+                </label>
+            </fieldset>
+
+            <fieldset id="Esports" onselectstart='return false'>
+                <legend>Esportes Favoritos:</legend>
+                <label for="esbas" class="check">
+                    <input type="checkbox" id="esbas" name="esbas">
+                    <label for="esbas">Basquete</label>
+                </label>
+                <label for="esvol" class="check">
+                    <input type="checkbox" id="esvol" name="esvol">
+                    <label for="esvol">Vôlei</label>
+                </label>
+                <label for="esfut" class="check">
+                    <input type="checkbox" id="esfut" name="esfut">
+                    <label for="esfut">Futebol</label>
+                </label>
+                <label for="eshad" class="check">
+                    <input type="checkbox" id="eshad" name="eshad">
+                    <label for="eshad">Handebol</label>
+                </label>
+                <label for="esxad" class="check">
+                    <input type="checkbox" id="esxad" name="esxad">
+                    <label for="esxad">Xadrez</label>
+                </label>
+                <label for="estms" class="check">
+                    <input type="checkbox" id="estms" name="estms">
+                    <label for="estms">Tênis</label>
+                </label>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+        </form>
+        
+    </main>
+</body>
+</html>
