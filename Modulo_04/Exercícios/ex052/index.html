@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Forms</h1>
-    <form action="../ex044/cad.php" method="get">
+    <form action="../ex044/cad.php" method="post">
         <p>
             <label for="est">Estado:</label>
             <select name="est" id="est">
@@ -28,6 +28,17 @@
         </p>
         <p>
             <label for="prof">Profissão:</label>
+            <input type="text" name="prof" id="prof" list="listprof" autocomplete="off">
+            <datalist id="listprof">
+                <option value="ADM"> Administrador</option>
+                <option value="COR"> Corretor</option>
+                <option value="MED"> Médico</option>
+                <option value="FIL"> Filósofo</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" cols="20" rows="5">Wow, look at Here:</textarea>
         </p>
         <p>
             <input type="submit" value="Submeter">
