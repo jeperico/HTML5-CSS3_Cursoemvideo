@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+:root{
+    --cor-roxo: #5F2C82;
+    --cor-ciano-um: #49A09D;
+    --cor-ciano-dois: #3F8D8A;
+    --cor-ciano-tres: #B5FDFA;
+    --cor-ciano-quatro: #79BAB6;
+    --cor-branco: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-roxo);
+    position: relative;
+}
+
+main{
+    background-color: var(--cor-branco);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: .75em;
+    width: 300px;
+}
+
+main img{
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main p{
+    margin-bottom: 7px;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main #Login_Area{
+    padding: 15px;
+}
+
+.Campo{
+    background-color: var(--cor-roxo);
+    color: var(--cor-branco);
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Campo input{
+    background-color: var(--cor-ciano-quatro);
+}
+
+.Button{
+    display: block;
+    margin: auto;
+    width: 270px;
+    height: 40px;
+    border: 1px solid var(--cor-ciano-um);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color .3s;
+}
+
+#B1{
+    background-color: var(--cor-ciano-um);
+    color: white;
+}
+
+#B1:hover{
+    background-color: var(--cor-ciano-dois);
+}
+
+#B2{
+    background-color: white;
+    color: var(--cor-ciano-um);
+}
+
+#B2:hover{
+    background-color: var(--cor-ciano-tres);
+}

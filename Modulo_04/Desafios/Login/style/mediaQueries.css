@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root{
+    --cor-roxo: #5F2C82;
+    --cor-ciano-um: #49A09D;
+    --cor-ciano-dois: #3F8D8A;
+    --cor-ciano-tres: #B5FDFA;
+    --cor-ciano-quatro: #79BAB6;
+    --cor-branco: white;
+}
+
+/* Typical Device Breakpoints */
+/* Pequenas Telas: - 600px */
+/* Celular: 600px - 768px */
+/* Tablet: 768px - 992px */
+/* Desktop: 992px - 1921px */
+/* Grandes Telas: 1921px - */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-quatro));
+    }
+    main{
+        width: 80vw;
+        height: 270px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-quatro));
+    }
+    main{
+        width: 940px;
+        height: 350px;
+    }
+    
+}
