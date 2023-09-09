@@ -12,29 +12,34 @@
 </head>
 <body>
     <main>
-        <img src="./img/pexels-pascal-weiland-2244429.jpg" alt="Imagem">
+        <section>
 
-        <div id="Login_Area">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+            <div id="img">
+                <img src="./img/pexels-pascal-weiland-2244429.jpg" alt="Imagem">
+            </div>
 
-            <form action="login.php" method="post">
-                <div class="Campo">
-                    <label for="email"><i class="material-symbols-outlined">person</i></label>
-                    <input type="email" id="email" required placeholder="Insira seu E-mail">
-                </div>
-                <div class="Campo">
-                    <label for="senha"><i class="material-symbols-outlined">key</i></label>
-                    <input type="password" id="senha" required placeholder="Sua Senha" minlength="8">
-                </div>
-                <div>
-                    <input type="submit" id="B1" class="Button" value="Entrar">
-                    <input type="button" id="B2" class="Button" value="Esqueci a senha">
-                </div>
-            </form>
+            <div id="Login_Area">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
 
-        </div>
+                <form action="login.php" method="post">
+                    <div class="Campo">
+                        <label for="email"><i class="material-symbols-outlined">person</i></label>
+                        <input type="email" id="email" required placeholder="Insira seu E-mail">
+                    </div>
+                    <div class="Campo">
+                        <label for="senha"><i class="material-symbols-outlined">key</i></label>
+                        <input type="password" id="senha" required placeholder="Sua Senha" minlength="8">
+                    </div>
+                    <div>
+                        <input type="submit" id="B1" class="Button" value="Entrar">
+                        <input type="button" id="B2" class="Button" value="Esqueci a senha">
+                    </div>
+                </form>
+                
+            </div>
 
+        </section>
     </main>
 </body>
 </html>
