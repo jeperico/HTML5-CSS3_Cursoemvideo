@@ -18,21 +18,39 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-quatro));
+        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-um));
     }
-    main{
+    #Login{
         width: 80vw;
         height: 270px;
+    }
+    #img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #Login_Area{
+        float: right;
+        width: 70%;
     }
 }
 
 @media screen and (min-width: 993px) {
     body{
-        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-quatro));
+        background-image: linear-gradient(var(--cor-roxo), var(--cor-ciano-um));
     }
-    main{
-        width: 940px;
+    #Login{
+        width: 930px;
         height: 350px;
+    }
+    #img{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #Login_Area{
+        float: right;
+        width: 50%;
     }
     
 }
