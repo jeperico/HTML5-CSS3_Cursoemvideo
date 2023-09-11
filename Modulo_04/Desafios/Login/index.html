@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style/all.css" media="all">
     <link rel="stylesheet" href="./style/mediaQueries.css">
 </head>
-<body>
+<body onselectstart='return false'>
     <main>
         <section id="Login">
 
@@ -21,15 +21,19 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
 
-                <form action="login.php" method="post">
-                    <div class="Campo">
-                        <label for="email"><i class="material-symbols-outlined">person</i></label>
-                        <input type="email" id="email" required placeholder="Insira seu E-mail">
-                    </div>
-                    <div class="Campo">
-                        <label for="senha"><i class="material-symbols-outlined">key</i></label>
-                        <input type="password" id="senha" required placeholder="Sua Senha" minlength="8">
-                    </div>
+                <form action="login.php" method="post" autocomplete="on">
+                    <label for="email">
+                        <div class="Campo">
+                            <i class="material-symbols-outlined">person</i>
+                            <input type="email" id="email" required placeholder="  Insira seu E-mail" autocomplete="email">
+                        </div>
+                    </label>
+                    <label for="senha">
+                        <div class="Campo">
+                            <i class="material-symbols-outlined">key</i>
+                            <input type="password" id="senha" required placeholder="  Sua Senha" minlength="8" autocomplete="current-password">
+                        </div>
+                    </label>
                     <div>
                         <input type="submit" id="B1" class="Button" value="Entrar">
                         <input type="button" id="B2" class="Button" value="Esqueci a senha">
